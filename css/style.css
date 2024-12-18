@@ -1,0 +1,137 @@
+.navbar-nav {
+  display: flex;
+  justify-content: right;
+}
+.navbar-nav ul {
+}
+.navbar-nav li {
+  list-style: none;
+  padding: 0px 30px;
+}
+.nav-item a {
+  text-decoration: none;
+  font-family: playfair;
+  font-weight: 700;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 80vpx;
+  color: #626262;
+}
+
+.banner {
+  background-image: url(../bgimage/image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.title1 h6 {
+  padding: 50px 0px 10px 0px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-left: 9%;
+}
+.title2 h1 {
+  text-transform: capitalize;
+  color: #626262;
+  font-size: 30px;
+  font-family: playfair;
+  margin-left: 9%;
+}
+
+.paragraph {
+  font-size: 17px;
+  color: #626262;
+  font-family: playfair;
+  margin-left: 9%;
+  font-weight: 400;
+}
+.comment1 h6 {
+  color: #b4ad9e;
+  margin-left: 9%;
+}
+.card_section h1 {
+  font-size: 30px;
+  font-family: playfair;
+  color: #626262;
+
+  font-weight: 400;
+}
+.card_section h6 {
+  color: #b4ad9e;
+}
+.card_section p {
+  font-family: playfair;
+  font-size: 17px;
+  color: #626262;
+  font-weight: 400;
+}
+.fluid_section {
+  background-color: #b4ad9e;
+  height: 275px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fluid_section h1 {
+  position: absolute;
+  font-family: playfair;
+  display: flex;
+  color: #333333;
+  /* margin-top: 10px; */
+  font-size: 30px;
+  font-weight: 300;
+  left: 0;
+  top: 27%;
+  right: 0;
+}
+.fluid_section h5 {
+  font-family: playfair;
+  display: flex;
+  /* margin-top: 10px; */
+  font-size: 16px;
+  color: #626262;
+  font-weight: 300;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-transform: capitalize;
+}
+.fluid_section h5 i {
+  padding: 0px 0px 0px 20px;
+}
+
+.card_section2 h6 {
+  color: #b4ad9e;
+}
+.card_section2 h1 {
+  font-size: 30px;
+  font-family: playfair;
+  color: #626262;
+}
+.card_section2 p {
+  font-family: playfair;
+  font-size: 17px;
+  color: #626262;
+}
+.btn_button {
+  display: flex;
+  padding: 10px;
+}
+.btn_button button {
+  text-transform: uppercase;
+}
+.footer_container {
+  background-color: #626262;
+  height: 100px;
+}
+.footer-section {
+  margin-left: 5%;
+  text-transform: capitalize;
+  color: white;
+}
+.fontawesome i {
+  color: white;
+}

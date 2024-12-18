@@ -1,0 +1,187 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* 3rd content start */
+  .logo {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+  }
+  .banner {
+  }
+  .title1 h6 {
+    /* margin-left: 49%; */
+    font-size: 10px;
+  }
+
+  .title2 h1 {
+    font-size: 14px;
+    /* margin-left: 40%; */
+  }
+  .paragraph {
+    font-size: 13px;
+
+    /* text-align: center; */
+  }
+
+  .comment1 h6 {
+    font-size: 13px;
+  }
+  /* card section start */
+  .card_section h6 {
+    font-size: 12px;
+  }
+  .card_section h1 {
+    font-size: 20px;
+  }
+  .card_section p {
+    font-size: 11px;
+  }
+  /* card section end */
+  /* fluid section start */
+  .fluid_section h1 {
+    font-size: 20px;
+  }
+  .fluid_section h5 {
+    top: 40%;
+    margin-top: 10px;
+  }
+  .fluid_section {
+    height: 127px;
+  }
+  /* fluid section end */
+  /* card section2 start */
+  .card_section2 h6 {
+    font-size: 12px;
+  }
+  .card_section2 h1 {
+    font-size: 20px;
+  }
+  .card_section2 p {
+    font-size: 11px;
+  }
+
+  /* card section end */
+
+  /* button section start */
+
+  .btn_button button {
+    text-transform: uppercase;
+    padding: 8px !important;
+    font-size: 15px;
+  }
+
+  /* button section end */
+
+  /* footer section start */
+
+  .footer-section {
+    font-size: 12px;
+  }
+
+  /* footer section end */
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .btn_button button {
+    text-transform: uppercase;
+    padding: 10px !important;
+    font-size: 16px;
+  }
+  .logo {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+  }
+
+  .title1 h6 {
+    font-size: 13px;
+  }
+
+  .title2 h1 {
+    font-size: 17px;
+  }
+  .paragraph {
+    font-size: 12px;
+  }
+  .card_section2 h6 {
+    font-size: 10px;
+  }
+  .card_section2 h1 {
+    font-size: 20px;
+  }
+  .card_section2 p {
+    font-size: 12px;
+    margin-top: 5px !important;
+  }
+  .card_section h6 {
+    font-size: 10px;
+  }
+  .card_section h1 {
+    font-size: 15px;
+  }
+  .card_section p {
+    font-size: 12px;
+    margin-top: 5px !important;
+  }
+  .fluid_section {
+    height: 150px;
+  }
+  .fluid_section h5 {
+    margin-top: 10px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* .logo img {
+    position: absolute;
+    left: 20px;
+  } */
+  .logo {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+  }
+  .card_section h6 {
+    font-size: 12px;
+  }
+  .card_section h1 {
+    font-size: 21px;
+  }
+  .card_section p {
+    font-size: 14px;
+    margin-top: 5px !important;
+  }
+  .card_section2 h6 {
+    font-size: 12px;
+  }
+  .card_section2 h1 {
+    font-size: 21px;
+  }
+  .card_section2 p {
+    font-size: 14px;
+    margin-top: 5px !important;
+  }
+  .title1 h6 {
+    font-size: 13px;
+  }
+
+  .title2 h1 {
+    font-size: 19px;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* // Extra Large devices (desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* // Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+}
