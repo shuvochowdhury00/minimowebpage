@@ -1,3 +1,6 @@
+.container-fluid{overflow:hidden;
+  
+}
 .navbar-nav {
   display: flex;
   justify-content: right;
